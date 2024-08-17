@@ -1,0 +1,31 @@
+body{
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #dadada;
+}
+.color-box{
+    list-style: none;
+    display: flex ;
+    gap: 10px;
+}
+.color-box li{
+    /* list-style: none; */
+    border: 5px solid goldenrod;
+    width: 100px;
+    height: 100px;
+
+}
+.white{
+    background-color: white;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.black{
+    background-color: black;
+}

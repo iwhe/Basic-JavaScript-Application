@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link href="style.css" rel="stylesheet">
+    </link>
+</head>
+
+<body>
+    <h1>BMI Calculator</h1>
+    <p>A BMI (Body Mass Index) calculator is a tool that helps you estimate whether you are underweight, normal weight,
+        overweight, or obese based on your height and weight.</p>
+
+    <form class="form">
+        <h2>Calculate</h2>
+        <div class="height">
+            <p>Height in CM:</p>
+            <input id="height" type="text" placeholder="Height">
+        </div>
+
+        <div class="weight">
+            <p>Weight in KG:</p>
+            <input id="weight" type="text" placeholder="Weight">
+        </div>
+
+        <button>Calculate</button>
+        <div id="results"></div>
+    </form>
+
+    <div class="guide">
+        <h3> BMI Weight Guide</h3>
+        <p>Under Weight = Less than 18.6</p>
+        <p>Normal Range = Between 18.6 and 24.9</p>
+        <p>Overweight = Between 24.9 to 29.9</p>
+        <p>Obesity = BMI 30 or higher</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

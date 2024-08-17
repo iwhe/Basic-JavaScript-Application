@@ -1,0 +1,43 @@
+body{
+    background-color: #dadada;
+}
+
+.guess_wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    /* background-color: #dadada; */
+}
+.header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+}
+
+form, .resultParas{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    font-size:larger;
+    box-sizing: content-box;
+    border-radius: 30px;
+}
+form input{
+    padding: 30px;
+    border: none;
+    border-radius: 30px;
+    background-color:#dadada;
+}
+.guessButton, #newGame{
+    padding: 30px;
+    background-color: rgb(8, 118, 197);
+    color: aliceblue;
+    border-radius: 30px;
+    cursor: pointer;
+    /* text-transform: uppercase; */
+}
